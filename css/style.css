@@ -776,16 +776,7 @@ form label {
     font-size: 28px;
   }
 }
-.my-heading h2:before {
-  position: absolute;
-  bottom: 0;
-  content: "";
-  width: 50px;
-  margin-left: -25px;
-  height: 2px;
-  left: 50%;
-  background: #00B906;
-}
+
 .my-heading h2.my-left:before {
   left: 0;
   margin-left: 0;
@@ -1775,3 +1766,26 @@ form label {
 
 /*# sourceMappingURL=style.css.map */
 
+.my-widget p {
+  text-align: justify;
+}
+
+.col-md-12 a {
+  font-size: 32px;
+}
+
+@media screen and (max-width: 760px) {
+  .col-md-12 h3  {
+    display: none;
+  }
+  .gtco-video-link {
+    display: none;
+  }
+  #telefon  {
+    display: none;
+  }
+}
+
+.my-video-link .popup-vimeo {
+  font-size: 20px;
+}
